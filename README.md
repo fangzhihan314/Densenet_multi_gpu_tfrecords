@@ -9,7 +9,7 @@ Some differences when compared with the design in the original paper (https://ar
 ## Dataset
 - The used dataset for test is flowers dataset. The images are converted into standard tfrecord dataset.
 - You can choose any data with tfrecord datasets, only to modify the function: read_and_decode() and inputs()
-- Input image size: 224*224*3
+- Input image size: 224\*224\*3
 
 ## To do list
 - Add the test step in the training. 
