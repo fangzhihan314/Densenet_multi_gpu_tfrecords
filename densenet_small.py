@@ -382,11 +382,8 @@ def run():
   run_model(image_dim, label_count)
 
 if __name__ == '__main__':
-  # flags.DEFINE_string("data_dir", "../../../../data/flower_photos/tfrecords",
-  #                     "The folder where data is")
-  flags.DEFINE_string("data_dir", "/mnt/yardcephfs/mmyard/g_wxg_td_prc/img/hankinwang/densenet/flower_data",
+  flags.DEFINE_string("data_dir", "../../../../data/flower_photos/tfrecords",
                       "The folder where data is")
-
   flags.DEFINE_string("log_dir", "logs",
                       "The folder where the log will be")
   flags.DEFINE_integer("image_size", 224,
