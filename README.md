@@ -1,8 +1,9 @@
 # Densenet_multi_pgu_tfrecords
 Densenet in this reposite, is based on the code at "https://github.com/LaurentMazare/deep-models/tree/master/densenet" by LaurentMazare, using tfrecords format data and either single cpu or multiple gpus if possible. 
 
-## Some differents when compared with the design in the original paper (https://arxiv.org/abs/1608.06993)
-The number of layers in each block has been set to 6 or 12 for small memory. 
+## Differences
+Some differences when compared with the design in the original paper (https://arxiv.org/abs/1608.06993):
+- The number of layers in each block has been set to 6 or 12 for small memory. 
 
 
 ## Dataset
