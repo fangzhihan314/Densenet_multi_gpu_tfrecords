@@ -1,4 +1,4 @@
-# Densenet_multi_pgu_tfrecords
+# Densenet_multi_gpu_tfrecords
 Densenet in this reposite, is based on the code at "https://github.com/LaurentMazare/deep-models/tree/master/densenet" by LaurentMazare, using tfrecords format data and either single cpu or multiple gpus if possible. 
 
 ## Differences
